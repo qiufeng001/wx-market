@@ -7,7 +7,7 @@
     <groupId>wx</groupId>
     <artifactId>wx-market</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0-SNP</version>
     <modules>
         <module>wx-market-domain</module>
         <module>wx-market-manager</module>
