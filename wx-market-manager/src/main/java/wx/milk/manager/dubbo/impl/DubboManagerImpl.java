@@ -2,9 +2,9 @@ package wx.milk.manager.dubbo.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import wx.milk.api.server.ITestDubboProvider;
+import wx.milk.api.server.IUserDubboProvider;
 import wx.milk.manager.dubbo.IDubboManager;
-import wx.milk.manager.dubbo.ITestDubboManager;
-import wx.milk.manager.dubbo.IUserDubboManager;
 import wx.query.Query;
 import wx.security.User;
 
@@ -12,17 +12,17 @@ import wx.security.User;
 public class DubboManagerImpl implements IDubboManager {
 
     @Autowired
-    private ITestDubboManager testDubboManager;
+    private ITestDubboProvider testDubboProvider;
     @Autowired
-    private IUserDubboManager userDubboManager;
+    private IUserDubboProvider userDubboProvider;
 
     @Override
     public String getStr(String val) {
-        return testDubboManager.getStr(val);
+        return testDubboProvider.getStr(val);
     }
 
     @Override
     public User findByParam(Query query) {
-        return userDubboManager.findByParam(query);
+        return userDubboProvider.findByParam(query);
     }
 }
