@@ -9667,4 +9667,24 @@
  [INFO ]2018-11-23 10:47:20[http-nio-8090-exec-4]performance.web:(TestSoaController.java:70).test,/test_soa,takes time:8ms
  [INFO ]2018-11-23 10:54:29[http-nio-8090-exec-2]performance.web:(BasicErrorController.java:70).errorHtml,/error,jump to:error/404.html,takes time:159ms
  [INFO ]2018-11-23 10:54:29[http-nio-8090-exec-4]performance.web:(BasicErrorController.java:70).error,/error,takes time:69ms
+ [INFO ]2018-12-14 09:15:24[http-nio-83-exec-1]performance.web:(TestSoaController.java:70).testNginx,/market/test_nginx,takes time:20ms
+ [INFO ]2018-12-14 09:15:26[http-nio-83-exec-2]performance.web:(TestSoaController.java:70).testNginx,/market/test_nginx,takes time:5ms
+ [INFO ]2018-12-14 09:15:27[http-nio-83-exec-3]performance.web:(TestSoaController.java:70).testNginx,/market/test_nginx,takes time:4ms
+ [INFO ]2018-12-14 09:16:05[http-nio-83-exec-4]performance.web:(DubboTestController.java:70).testDubbo,/market/test_dubbo,takes time:34ms
+ [INFO ]2018-12-14 09:16:14[http-nio-83-exec-5]performance.web:(DubboTestController.java:70).testUser,/market/test_user,takes time:123ms
+ [INFO ]2018-12-14 09:17:36[http-nio-83-exec-6]performance.web:(TestSoaController.java:70).testNginx,/market/test_nginx,takes time:2ms
+ [INFO ]2018-12-14 09:17:38[http-nio-83-exec-7]performance.web:(TestSoaController.java:70).testNginx,/market/test_nginx,takes time:3ms
+ [INFO ]2018-12-14 09:19:29[http-nio-83-exec-8]performance.web:(TestSoaController.java:70).testNginx,/market/test_nginx,takes time:1ms
+ [INFO ]2018-12-14 09:19:31[http-nio-83-exec-9]performance.web:(DubboTestController.java:70).testUser,/market/test_user,takes time:24ms
+ [INFO ]2018-12-14 09:19:32[http-nio-83-exec-10]performance.web:(DubboTestController.java:70).testUser,/market/test_user,takes time:25ms
+ [INFO ]2018-12-14 09:19:33[http-nio-83-exec-1]performance.web:(DubboTestController.java:70).testUser,/market/test_user,takes time:14ms
+ [INFO ]2018-12-14 09:21:12[http-nio-83-exec-2]performance.web:(DubboTestController.java:70).testUser,/market/test_user,takes time:165ms
+ [INFO ]2018-12-14 09:22:06[http-nio-83-exec-3]performance.web:(DubboTestController.java:70).testUser,/market/test_user,takes time:3040ms
+ [INFO ]2018-12-14 09:22:06[http-nio-83-exec-3]performance.web:(BasicErrorController.java:70).errorHtml,/market/error,jump to:error/500.html,takes time:159ms
+ [INFO ]2018-12-14 09:24:10[http-nio-83-exec-4]performance.web:(DubboTestController.java:70).testUser,/market/test_user,takes time:158ms
+ [INFO ]2018-12-14 09:25:59[http-nio-83-exec-5]performance.web:(DubboTestController.java:70).testUser,/market/test_user,takes time:160ms
+ [INFO ]2018-12-14 09:26:34[http-nio-83-exec-6]performance.web:(DubboTestController.java:70).testUser,/market/test_user,takes time:25ms
+ [INFO ]2018-12-14 09:29:33[http-nio-83-exec-7]performance.web:(DubboTestController.java:70).testUser,/market/test_user,takes time:168ms
+ [INFO ]2018-12-14 09:29:44[http-nio-83-exec-8]performance.web:(DubboTestController.java:70).testDubbo,/market/test_dubbo,takes time:13ms
+ [INFO ]2018-12-14 09:29:49[http-nio-83-exec-9]performance.web:(DubboTestController.java:70).testDubbo,/market/test_dubbo,takes time:6ms
  
