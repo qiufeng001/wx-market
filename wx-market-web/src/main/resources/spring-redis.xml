@@ -19,21 +19,21 @@
     </bean>
 
 
-    <bean name="wxRedisClient" class="wx.milk.web.base.redis.WxRedisClient" lazy-init="false">
+    <bean name="wxRedisClient" class="com.framework.core.redis.WxRedisClient" lazy-init="false">
         <property name="commonJedis">
-            <bean class="wx.milk.web.base.redis.WxRedisFactoryBean">
+            <bean class="com.framework.core.redis.WxRedisFactoryBean">
                 <constructor-arg index="0" ref="jedisPoolConfig"/>
                 <constructor-arg index="1" value="${jedis.url.common}"/>
                 <constructor-arg index="2" value="${jedis.port.common}"/>
             </bean>
         </property>
-       <!-- <property name="sessionJedis">
-            <bean class="com.qgutech.pe.base.redis.PeRedisFactoryBean">
-                <constructor-arg index="0" ref="jedisPoolConfig"/>
-                <constructor-arg index="1" value="${jedis.url.session}"/>
-                <constructor-arg index="2" value="${jedis.port.session}"/>
-            </bean>
-        </property>-->
+        <!-- <property name="sessionJedis">
+             <bean class="com.qgutech.pe.base.redis.PeRedisFactoryBean">
+                 <constructor-arg index="0" ref="jedisPoolConfig"/>
+                 <constructor-arg index="1" value="${jedis.url.session}"/>
+                 <constructor-arg index="2" value="${jedis.port.session}"/>
+             </bean>
+         </property>-->
     </bean>
 
     <bean id="taskExecutor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">

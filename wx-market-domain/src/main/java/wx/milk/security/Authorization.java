@@ -3,10 +3,10 @@ package wx.milk.security;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.framework.core.security.User;
 import org.omg.CORBA.Environment;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
-import wx.security.User;
 
 
 public final class Authorization implements InitializingBean {

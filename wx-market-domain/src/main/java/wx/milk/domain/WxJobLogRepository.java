@@ -1,7 +1,7 @@
 package wx.milk.domain;
 
+import com.framework.core.base.domain.IRepository;
 import org.apache.ibatis.annotations.Mapper;
-import wx.base.domain.IRepository;
 import wx.milk.model.WxJobLog;
 
 /**

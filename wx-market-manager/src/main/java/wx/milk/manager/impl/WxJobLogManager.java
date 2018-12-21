@@ -1,8 +1,9 @@
 package wx.milk.manager.impl;
 
+import com.framework.manager.impl.BaseManager;
+import com.framework.service.IService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import wx.base.service.IService;
 import wx.milk.manager.IWxJobLogManager;
 import wx.milk.model.WxJobLog;
 import wx.milk.service.IWxJobLogService;

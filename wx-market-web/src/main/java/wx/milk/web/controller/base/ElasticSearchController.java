@@ -1,7 +1,7 @@
 package wx.milk.web.controller.base;
 
-import wx.base.controller.BaseController;
-import wx.base.manager.IManager;
+import com.framework.manager.IManager;
+import com.framework.web.controller.BaseController;
 
 public class ElasticSearchController extends BaseController {
 

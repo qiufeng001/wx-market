@@ -1,8 +1,8 @@
 package com.test.thread;
 
+import com.framework.core.redis.WxJedisCommands;
+import com.framework.core.redis.WxRedisClient;
 import redis.clients.jedis.JedisCommands;
-import wx.milk.web.base.redis.WxJedisCommands;
-import wx.milk.web.base.redis.WxRedisClient;
 
 /**
  * auther: kiven on 2018/8/15/015 23:10

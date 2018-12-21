@@ -1,7 +1,7 @@
 package com.test.thread;
 
-import wx.milk.web.base.redis.WxJedisCommands;
-import wx.milk.web.base.redis.WxRedisClient;
+import com.framework.core.redis.WxJedisCommands;
+import com.framework.core.redis.WxRedisClient;
 
 import java.util.HashMap;
 import java.util.Map;

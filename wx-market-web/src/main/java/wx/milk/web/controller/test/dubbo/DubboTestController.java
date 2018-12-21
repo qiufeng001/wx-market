@@ -1,13 +1,13 @@
 package wx.milk.web.controller.test.dubbo;
 
+import com.framework.core.query.Query;
+import com.framework.core.query.Statement;
+import com.framework.core.security.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import wx.milk.manager.dubbo.IDubboManager;
-import wx.query.Query;
-import wx.query.Statement;
-import wx.security.User;
 
 @SuppressWarnings("ALL")
 @Controller

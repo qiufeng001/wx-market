@@ -1,7 +1,7 @@
 package wx.milk.web.controller.test.thread;
 
-import wx.milk.web.base.redis.WxJedisCommands;
-import wx.milk.web.base.redis.WxRedisClient;
+import com.framework.core.redis.WxJedisCommands;
+import com.framework.core.redis.WxRedisClient;
 
 /**
  * auther: kiven on 2018/8/15/015 22:38

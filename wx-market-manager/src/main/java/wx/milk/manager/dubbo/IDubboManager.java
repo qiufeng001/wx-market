@@ -1,7 +1,7 @@
 package wx.milk.manager.dubbo;
 
-import wx.query.Query;
-import wx.security.User;
+import com.framework.core.query.Query;
+import com.framework.core.security.User;
 
 public interface IDubboManager {
     String getStr(String val);
