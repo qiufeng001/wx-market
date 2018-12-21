@@ -16,12 +16,13 @@ public class ThreadController {
 
     @RequestMapping(value = "/test")
     @ResponseBody
-    public void test() {
+    public String test() {
         WxJedisCommands commonJedis = WxRedisClient.getCommonJedis();
         commonJedis.set("projectId", "123");
         ProduceAndConsume p = new ProduceAndConsume();
         Thread t = new Thread(p);
         t.start();
         System.out.println("单线程！");
+        return "单线程";
     }
 }
